@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-cov1 = np.mat("0.3 0;0 0.1")
+cov1 = np.mat("0.3 .1;0 0.1")
 cov2 = np.mat("0.2 0;0 0.3")
 mu1 = np.array([0, 1])
 mu2 = np.array([2, 1])
